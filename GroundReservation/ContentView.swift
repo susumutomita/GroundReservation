@@ -16,7 +16,6 @@ struct ContentView: View {
             Text("Hello, world!")
                 .font(.title2)
                 .foregroundColor(Color.blue)
-                .multilineTextAlignment(.trailing)
         }
         .padding()
     }
