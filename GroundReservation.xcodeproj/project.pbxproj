@@ -14,6 +14,8 @@
 		3AE2640728FAA5BC0086741A /* GroundReservationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2640628FAA5BC0086741A /* GroundReservationTests.swift */; };
 		3AE2641128FAA5BC0086741A /* GroundReservationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2641028FAA5BC0086741A /* GroundReservationUITests.swift */; };
 		3AE2641328FAA5BC0086741A /* GroundReservationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2641228FAA5BC0086741A /* GroundReservationUITestsLaunchTests.swift */; };
+		3AFF855728FC362B0008D783 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF855628FC362B0008D783 /* CircleImage.swift */; };
+		3AFF855928FC36A00008D783 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFF855828FC36A00008D783 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3AE2640C28FAA5BC0086741A /* GroundReservationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroundReservationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE2641028FAA5BC0086741A /* GroundReservationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundReservationUITests.swift; sourceTree = "<group>"; };
 		3AE2641228FAA5BC0086741A /* GroundReservationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundReservationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AFF855628FC362B0008D783 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3AFF855828FC36A00008D783 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				3AE263F528FAA5BB0086741A /* GroundReservationApp.swift */,
 				3AE263F728FAA5BB0086741A /* ContentView.swift */,
 				3AE263F928FAA5BC0086741A /* Assets.xcassets */,
+				3AFF855628FC362B0008D783 /* CircleImage.swift */,
+				3AFF855828FC36A00008D783 /* MapView.swift */,
 				3AE263FB28FAA5BC0086741A /* Preview Content */,
 			);
 			path = GroundReservation;
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE263F828FAA5BB0086741A /* ContentView.swift in Sources */,
+				3AFF855928FC36A00008D783 /* MapView.swift in Sources */,
 				3AE263F628FAA5BB0086741A /* GroundReservationApp.swift in Sources */,
+				3AFF855728FC362B0008D783 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
